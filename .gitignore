@@ -1,0 +1,11 @@
+# Python / local run artefacts — never commit these
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated output and private data
+summary.json
+summary*.json
+llm-output*.txt
+*.SC2Replay
